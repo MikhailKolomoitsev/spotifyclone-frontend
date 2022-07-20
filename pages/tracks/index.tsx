@@ -2,10 +2,12 @@ import { Card, Grid } from '@material-ui/core'
 import { Box, Button } from '@mui/material'
 import { useRouter } from 'next/dist/client/router'
 import React from 'react'
+import TrackList from '../../components/TrackList'
 import MainLayout from '../../layouts/MainLayout'
 import { ITrack } from '../../types/track'
 
 const index = () => {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const router = useRouter()
     const tracks: ITrack[] = [
         {
@@ -51,6 +53,7 @@ const index = () => {
                             </Button>
                         </Grid>
                     </Box>
+                    <TrackList tracks={tracks}/>
                 </Card>
             </Grid>
         </MainLayout>
