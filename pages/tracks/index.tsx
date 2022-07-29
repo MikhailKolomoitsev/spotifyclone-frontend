@@ -1,5 +1,5 @@
 import { Card, Grid } from '@material-ui/core'
-import { Box, Button } from '@mui/material'
+import { Box, Button } from '@material-ui/core'
 import { useRouter } from 'next/dist/client/router'
 import React from 'react'
 import TrackList from '../../components/TrackList'

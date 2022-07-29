@@ -1,4 +1,4 @@
-import { Card, Grid, IconButton } from '@mui/material'
+import { Card, Grid, IconButton } from '@material-ui/core'
 import React from 'react'
 import { ITrack } from '../types/track'
 import styles from '../styles/TrackItem.module.scss'
